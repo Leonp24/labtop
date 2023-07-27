@@ -1,0 +1,75 @@
+/* font */
+* {
+    font-family: outfit;
+}
+
+/* Gaya untuk container hero */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Gaya untuk teks yang mengetik */
+.typing-text {
+  font-size: 50px;
+  margin-top: 30px;
+  font-weight: bold;
+  border-right: 2px solid #000; /* Tampilan imitasi garis pengetikan */
+  padding-right: 5px; /* Jarak teks dari garis pengetikan */
+  white-space: nowrap; /* Teks tidak akan pindah ke baris baru */
+  overflow: hidden; /* Menyembunyikan teks yang tidak terlihat */
+  animation: typing 2s steps(40, end), blink-caret 0.5s step-end infinite; /* Menerapkan animasi */
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 20px;
+}
+
+.img-hero img {
+    width: 600px;
+}
+
+#about {
+    margin-top: 120px;
+    color: white;
+    height: 460px;
+}
+#about p {
+    text-align: justify;
+}
+#about .deskripsi-about {
+    margin-top: 17%;
+}
+#about .deskripsi-about .iconify {
+    font-size: 40px;
+}
+#about h1 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#laptop {
+    margin-top: 120px;
+}
+#laptop h1 {
+    font-weight: 600;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+footer img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

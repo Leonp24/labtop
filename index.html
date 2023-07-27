@@ -21,8 +21,9 @@
     <!-- favicon -->
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
 
-    <!-- facebook -->
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v17.0" nonce="cGVghDRY"></script>
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>ScrollReveal({ reset: true });</script>
 
     <!-- font -->
     <style>
@@ -41,10 +42,10 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#" style="color: #54B6EA; font-weight: 600;">Beranda</a>
-              <a class="nav-link" href="#about">About</a>
-              <a class="nav-link" href="#">Laptop</a>
-              <a class="nav-link" href="#">Contact</a>
-              <a href="https:://wa.me/+62895602879725/" class="btn" style="width: 150px; background-color: #54B6EA; color: white; display: flex; align-items: center; margin-left: 20px;">Pesan Sekarang!</a>
+              <a class="nav-link" href="#about">Tentang Kami</a>
+              <a class="nav-link" href="#laptop">Laptop</a>
+              <a class="nav-link" href="#layanan">Layanan</a>
+              <a href="https:://wa.me/+62895602879725/" class="btn" style="width: 150px; background-color: #54B6EA; color: white; display: flex; align-items: center; justify-content: center;">Hubungi Kami!</a>
             </div>
           </div>
         </div>
@@ -212,6 +213,38 @@
     </section>
     <!-- laptop -->
 
+    <!-- layanan -->
+    <section id="layanan" style="background-color: #fff3e4;">
+      <div class="container">
+        <h1><b>Layanan Kami</b></h1>
+        <p>Selain menjual laptop, kami siap membantu anda sesuai dengan layanan kami dibawah ini,</p>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card-layanan">
+              <img src="./assets/laptop.png" alt="" class="img-card">
+              <h5><b>Konsultasi Masalah Laptop</b></h5>
+              <p>Kami senantiasa membantu anda untuk mencari penyelesaian masalah pada laptop anda secara Gratis!</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card-layanan">
+              <img src="./assets/ram.png" alt="" class="img-card">
+              <h5><b>Upgrade Laptop</b></h5>
+              <p>Kami dapat membantu anda untuk meng-upgrade laptop agar memiliki kinerja yang lebih baik. </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card-layanan">
+              <img src="./assets/ux-design.png" alt="" class="img-card">
+              <h5><b>UI & Web Design</b></h5>
+              <p>Kami dapat membantu anda untuk merancang tampilan aplikasi atau website yang anda mau</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- layanan -->
+
     <!-- footer -->
     <footer>
         <div class="container">
@@ -224,10 +257,11 @@
                     <a href="https://wa.me/+62895602879725" target="_blank" style="text-decoration: none; color: #333;"><span class="iconify" data-icon="uil:whatsapp" style="color: #54b6ea;"></span>  0895602879725</a>
                     <br>
                     <br>
+                    <p>📍 COD Kota Palembang, Free Ongkir didalam kota!</p>
                     <p>&copy; LabtoP, Dibuat dengan sabar, 2023</p>
                 </div>
                 <div class="col-lg-8">
-                    <h5><b>Lokasi Kami</b></h5>
+                    <h6><b>Lokasi Kami</b></h6>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.483672685622!2d104.7193384748341!3d-2.9632093970129527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b750ab67f788b%3A0x9e7cd0266016609c!2sELabtob%20-%20Jual%20Laptop%20Murah%20Berkualitas!5e0!3m2!1sen!2sid!4v1690452414811!5m2!1sen!2sid" width="100%" height="250" style="border:0; border-radius: 5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
@@ -235,7 +269,7 @@
     </footer>
     <!-- footer -->
 
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v17.0" nonce="cGVghDRY"></script>
+    
     <script>
       // Daftar teks yang akan diganti
       const texts = [
@@ -275,6 +309,12 @@
       window.onload = function () {
         type();
       };
+
+      // scroll reveal
+      ScrollReveal().reveal('.hero', { delay: 100 });
+      ScrollReveal().reveal('#about', { delay: 100 });
+      ScrollReveal().reveal('#laptop', { delay: 100 });
+      ScrollReveal().reveal('#layanan', { delay: 100 });
     </script>
   </body>
 </html>

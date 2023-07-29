@@ -86,4 +86,11 @@
     justify-content: center;
     align-items: center;
   }
+
+  #promo {
+    background-image: url(./assets/bg-promo-mobile.png);
+    height: 530px;
+    background-size:100%;
+    margin-top: 120px;
+}
 }

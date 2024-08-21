@@ -1,327 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LabtoP - Beli Laptop Online</title>
 
-    <!-- my CSS -->
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./mobile.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labtop | Jual Laptop Palembang</title>
 
-    <!-- bootstrap CSS -->
-    <link rel="stylesheet" href="./css/bootstrap.css">
-
-    <!-- bootstrap JS -->
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <script src="./js/bootstrap.bundle.js"></script>
+
+    <link rel="stylesheet" href="style.css">
 
     <!-- iconify -->
     <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+</head>
 
-    <!-- favicon -->
-    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+<body class="bg-dark">
 
-    <!-- scroll reveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <!-- <script>ScrollReveal({ reset: true });</script>s -->
-
-    <!-- font -->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap');
-    </style>
-
-  </head>
-  <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
         <div class="container">
-          <a class="navbar-brand" href="#"><img src="./assets/logo.png" alt="" width="150px"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#" style="color: #54B6EA; font-weight: 600;">Beranda</a>
-              <a class="nav-link" href="#about">Tentang Kami</a>
-              <a class="nav-link" href="#laptop">Laptop</a>
-              <a class="nav-link" href="#layanan">Layanan</a>
-              <a href="https:://wa.me/+62895602879725/" class="btn" style="width: 150px; background-color: #54B6EA; color: white; display: flex; align-items: center; justify-content: center;">Hubungi Kami!</a>
+            <a class="navbar-brand" href="#">LabtoP.</a>
+            <button class="navbar-toggler text-bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" aria-current="page" href="#hero">Beranda</a>
+                    <a class="nav-link" href="#about">Tentang Kami</a>
+                    <a class="nav-link" href="#produk">Produk</a>
+                    <a class="nav-link" href="#layanan">Layanan</a>
+                </div>
             </div>
-          </div>
         </div>
     </nav>
-    <!-- navbar -->
 
-    <!-- hero -->
-    <div class="hero">
-        <h1 class="typing-text" id="dynamic-text"></h1>
-      </div>
-  
-      <div class="deskripsi-hero text-center">
-          <p>Menjual Laptop Second dengan Amanah, Aman, dan Terpercaya di Kota palembang!</p>
-          <a href="https://wa.me/+62895602879725/" target="_blank" class="btn" style="width: 150px; background-color: #54B6EA; color: white; display: flex; align-items: center; justify-content: center; margin: auto;">Cari Laptop →</a>
-      </div>
-  
-    <div class="img-hero">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col">
-                    <img src="./assets/img-hero.png" alt="https://www.kohbee.com/article/lxcwuvra-71628efghijkl">
-                </div>
-            </div>
-        </div>
-    </div>      
-    <!-- hero -->
-
-    <!-- about -->
-    <section id="about" style="background-image:url(./assets/bg-about.png); background-size: cover;">
+    <div id="hero" class="d-flex align-items-center">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="deskripsi-about">
-                        <p><span class="iconify" data-icon="mdi:comment-quote" style="color: white;"></span></p>
-                        <h1>Tentang Kami</h1>
-                        <p>"Kami dengan penuh semangat membangun toko laptop dari usaha rintisan yang berdedikasi untuk memberikan solusi teknologi terbaik bagi Anda. Kami berkomitmen untuk memberikan produk dan layanan berkualitas tinggi yang sesuai dengan kebutuhan dan anggaran Anda. Setiap laptop kami telah dipilih dan dirawat dengan baik. Kami siap membantu Anda menemukan laptop second berkualitas sesuai kebutuhan Anda.Selamat datang di toko laptop second kami, tempat di mana hemat dan kualitas bertemu!"</p>
+                <div class="row mt-5 d-flex align-items-center">
+                    <div class="col-lg-6">
+                        <h1>Laptop <i class="text-danger">impian</i> tingkatkan kreativitas.</h1>
+                        <p>Temukan laptop spec tinggi dengan harga terjangkau!</p>
+                        <a href="#produk" class="btn btn-outline-light">Cari Laptop</a>
+                    </div>
+                    <div class="col-lg-6 d-none d-lg-block">
+                        <hr>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- about -->
-
-    <!-- laptop -->
-    <section id="laptop">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center">
-                    <h1>Pilihan Laptop Terbaik</h1>
-                    <p>Untuk saat ini kami hanya menyediakan pilihan Laptop yang kami jual dengan merek <b>Lenovo Thinkpad</b>, tentunya laptop dengan performa dan kinerja seperti baru!</p>
-                    <a href="https://wa.me/+62895602879725/" target="_blank" style="text-decoration: none; color: #54B6EA;">Tanya Stok Laptop →</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="card mt-5" style="width: 100%;">
-                        <img src="./assets/t470s.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title"><b>Lenovo Thinkpad T470s</b></h5>
-                          <hr>
-                          <p class="card-text">
-                            <b>Spesifikasi,</b>
-                            <ul>
-                                <li>Windows 11 Pro Original</li>
-                                <li>Processor Intel Core i5 7th Gen</li>
-                                <li>RAM 8GB DDR4L</li>
-                                <li>SSD 256GB</li>
-                                <li>Layar 14" FHD IPS 1920x1080</li>
-                                <li>Backlight Keyboard</li>
-                            </ul>
-                            <b>Kelengkapan,</b>
-                            <ul>
-                                <li>Charger Laptop</li>
-                                <li>Tas Laptop</li>
-                                <li>Mouse Wireless Keren</li>
-                            </ul>
-                          </p>
-                          <a href="https://wa.me/+62895602879725/" class="btn" style="width: 100%; background-color: #54B6EA; color: white; display: flex; align-items: center; justify-content: center; margin: auto;">Beli Laptop →</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="card mt-5" style="width: 100%;">
-                        <img src="./assets/t480s.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title"><b>Lenovo Thinkpad T480s</b></h5>
-                          <hr>
-                          <p class="card-text">
-                            <b>Spesifikasi,</b>
-                            <ul>
-                                <li>Windows 11 Pro Original</li>
-                                <li>Processor Intel Core i5 8th Gen</li>
-                                <li>RAM 8GB DDR4L</li>
-                                <li>SSD 256GB</li>
-                                <li>Layar 14" FHD IPS 1920x1080 Touchscreen/NonTouchscreen</li>
-                                <li>Backlight Keyboard</li>
-                            </ul>
-                            <b>Kelengkapan,</b>
-                            <ul>
-                                <li>Charger Laptop</li>
-                                <li>Tas Laptop</li>
-                                <li>Mouse Wireless Keren</li>
-                            </ul>
-                          </p>
-                          <a href="https://wa.me/+62895602879725/" class="btn" style="width: 100%; background-color: #54B6EA; color: white; display: flex; align-items: center; justify-content: center; margin: auto;">Beli Laptop →</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="card mt-5" style="width: 100%;">
-                        <img src="./assets/x280.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title"><b>Lenovo Thinkpad X280</b></h5>
-                          <hr>
-                          <p class="card-text">
-                            <b>Spesifikasi,</b>
-                            <ul>
-                                <li>Windows 11 Pro Original</li>
-                                <li>Processor Intel Core i5 8th Gen</li>
-                                <li>RAM 8GB DDR4L</li>
-                                <li>SSD 256GB</li>
-                                <li>Layar 14" FHD IPS 1920x1080 Touchscreen/NonTouchscreen</li>
-                                <li>Backlight Keyboard</li>
-                            </ul>
-                            <b>Kelengkapan,</b>
-                            <ul>
-                                <li>Charger Laptop</li>
-                                <li>Tas Laptop</li>
-                                <li>Mouse Wireless Keren</li>
-                            </ul>
-                          </p>
-                          <a href="https://wa.me/+62895602879725/" class="btn" style="width: 100%; background-color: #54B6EA; color: white; display: flex; align-items: center; justify-content: center; margin: auto;">Beli Laptop →</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="card mt-5" style="width: 100%;">
-                        <img src="./assets/x1carbon.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title"><b>Lenovo Thinkpad X1 Carbon 5th</b></h5>
-                          <hr>
-                          <p class="card-text">
-                            <b>Spesifikasi,</b>
-                            <ul>
-                                <li>Windows 11 Pro Original</li>
-                                <li>Processor Intel Core i5 6th Gen</li>
-                                <li>RAM 8GB DDR4L</li>
-                                <li>SSD 256GB</li>
-                                <li>Layar 14" FHD IPS 1920x1080</li>
-                                <li>Backlight Keyboard</li>
-                            </ul>
-                            <b>Kelengkapan,</b>
-                            <ul>
-                                <li>Charger Laptop</li>
-                                <li>Tas Laptop</li>
-                                <li>Mouse Wireless Keren</li>
-                            </ul>
-                          </p>
-                          <a href="https://wa.me/+62895602879725/" class="btn" style="width: 100%; background-color: #54B6EA; color: white; display: flex; align-items: center; justify-content: center; margin: auto;">Beli Laptop →</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- laptop -->
-
-    <!-- layanan -->
-    <section id="layanan" style="background-color: #fff3e4;">
-      <div class="container">
-        <h1><b>Layanan Kami</b></h1>
-        <p>Selain menjual laptop, kami siap membantu anda sesuai dengan layanan kami dibawah ini,</p>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="card-layanan">
-              <img src="./assets/laptop.png" alt="" class="img-card">
-              <h5><b>Konsultasi Masalah Laptop</b></h5>
-              <p>Kami senantiasa membantu anda untuk mencari penyelesaian masalah pada laptop anda secara Gratis!</p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card-layanan">
-              <img src="./assets/ram.png" alt="" class="img-card">
-              <h5><b>Upgrade Laptop</b></h5>
-              <p>Kami dapat membantu anda untuk meng-upgrade laptop agar memiliki kinerja yang lebih baik. </p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card-layanan">
-              <img src="./assets/ux-design.png" alt="" class="img-card">
-              <h5><b>UI & Web Design</b></h5>
-              <p>Kami dapat membantu anda untuk merancang tampilan aplikasi atau website yang anda mau</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- layanan -->
-
-    
-    <!-- promo -->
-    <div class="container">
-      <section id="promo"></section>
     </div>
-    <!-- promo -->
 
-    <!-- footer -->
+    <div id="about">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-6">
+                    <h1>Tentang Kami</h1>
+                    <h1 class="text-danger">•</h1>
+                    <p>"Kami dengan penuh semangat membangun toko laptop dari usaha rintisan yang berdedikasi untuk
+                        memberikan solusi teknologi terbaik bagi Anda. Kami berkomitmen untuk memberikan produk dan
+                        layanan berkualitas tinggi yang sesuai dengan kebutuhan dan anggaran Anda. <br><br> Setiap
+                        laptop kami telah dipilih dan dirawat dengan baik. Kami siap membantu Anda menemukan laptop
+                        second berkualitas sesuai kebutuhan Anda. Selamat datang di toko laptop second kami, tempat di
+                        mana hemat dan kualitas bertemu!"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="produk">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-3">
+                    <h1>Produk<span class="text-danger">.</span></h1>
+                </div>
+                <div class="col-lg-9 d-none d-lg-block">
+                    <hr class="text-light">
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-lg-3">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./assets/x1 (1).jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/x1 (2).jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/x1 (3).jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="deskripsi mt-3">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-lg-8">
+                                <h5 class="text-truncate">Thinkpad X1 Carbon 5th</h5>
+                            </div>
+                            <div class=" col-lg-4 text-end text-warning">
+                                <h6>IDR 4200K</h6>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline-light">Intel Core i5</button>
+                        <button class="btn btn-outline-light">256GB SSD</button>
+                        <button class="btn btn-outline-light">8GB RAM</button>
+                        <span class="badge text-bg-light mt-3">Slim</span>
+                        <span class="badge text-bg-light mt-3">Narrow Bezel</span>
+                        <span class="badge text-bg-success mt-3">Ready Stock</span>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div id="carouselExample1" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./assets/yoga370 (2).jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/yoga370 (1).jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/yoga370 (3).jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="deskripsi mt-3">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-lg-8">
+                                <h5>Thinkpad YOGA 370</h5>
+                            </div>
+                            <div class="col-lg-4 text-end text-warning">
+                                <h6>IDR 4300K</h6>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline-light">Intel Core i5</button>
+                        <button class="btn btn-outline-light">256GB SSD</button>
+                        <button class="btn btn-outline-light">8GB RAM</button>
+                        <span class="badge text-bg-light mt-3">Touchscreen</span>
+                        <span class="badge text-bg-light mt-3">Flip 360º</span>
+                        <span class="badge text-bg-secondary mt-3">Pre Order</span>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div id="carouselExample2" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./assets/t480s (2).jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/t480s (1).jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/t480s (3).jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="deskripsi mt-3">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-lg-8">
+                                <h5>Thinkpad T480s</h5>
+                            </div>
+                            <div class="col-lg-4 text-end text-warning">
+                                <h6>IDR 4500K</h6>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline-light">Intel Core i5</button>
+                        <button class="btn btn-outline-light">512GB SSD</button>
+                        <button class="btn btn-outline-light">24GB RAM</button>
+                        <span class="badge text-bg-light mt-3">Powerful</span>
+                        <span class="badge text-bg-light mt-3">Mobility</span>
+                        <span class="badge text-bg-secondary mt-3">Pre Order</span>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div id="carouselExample2" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./assets/t495 (3).jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/t495 (1).jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/t495 (2).jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="deskripsi mt-3">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-lg-8">
+                                <h5>Thinkpad T495</h5>
+                            </div>
+                            <div class="col-lg-4 text-end text-warning">
+                                <h6>IDR 4500K</h6>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline-light">Ryzen 5</button>
+                        <button class="btn btn-outline-light">256GB SSD</button>
+                        <button class="btn btn-outline-light">8GB RAM</button>
+                        <span class="badge text-bg-light mt-3">Gaming & Rendering</span>
+                        <span class="badge text-bg-success mt-3">Ready Stock</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="cta">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-6">
+                    <h1>Mencari Produk lain?</h1>
+                    <p>Silahkan hubungi kami untuk menanyakan Stok atau Tipe lain</p>
+                    <a href="wa.me/62895602879725" class="btn btn-outline-light">Hubungi Kami</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="./assets/img-hero1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="layanan">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-3">
+                    <h1>Layanan<span class="text-danger">.</span></h1>
+                </div>
+                <div class="col-lg-9 d-none d-lg-block">
+                    <hr class="text-light">
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-lg-4">
+                    <figure class="item">
+                        <img src="./assets/upgrade.jpg" alt="">
+                        <figcaption>Upgrade Laptop</figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4">
+                    <figure class="item">
+                        <img src="./assets/konsul.jpg" alt="">
+                        <figcaption>Konsultasi Masalah Laptop</figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4">
+                    <figure class="item">
+                        <img src="./assets/lp-design.jpg" alt="">
+                        <figcaption>Website Landing Page</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
                     <img src="./assets/logo.png" alt="" width="150px">
                     <br>
-                    <a href="https://instagram.com/juallaptoppalembang" target="_blank" style="text-decoration: none; color: #333;"><span class="iconify" data-icon="uil:instagram" style="color: #54b6ea;"></span>  @juallaptoppalembang</a>
+                    <a href="https://instagram.com/juallaptoppalembang" target="_blank"><span class="iconify"
+                            data-icon="uil:instagram"></span> @juallaptoppalembang</a>
                     <br>
-                    <a href="https://wa.me/+62895602879725" target="_blank" style="text-decoration: none; color: #333;"><span class="iconify" data-icon="uil:whatsapp" style="color: #54b6ea;"></span>  0895602879725</a>
+                    <a href="https://wa.me/+62895602879725" target="_blank"><span class="iconify"
+                            data-icon="uil:whatsapp"></span> 0895602879725</a>
                     <br>
                     <br>
                     <p>📍 COD Kota Palembang, Free Ongkir didalam kota!</p>
-                    <p>&copy; LabtoP, Dibuat dengan sabar, 2023</p>
+                    <p>&copy; LabtoP, Dibuat dengan sabar, 2024</p>
                 </div>
                 <div class="col-lg-8">
                     <h6><b>Lokasi Kami</b></h6>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.483672685622!2d104.7193384748341!3d-2.9632093970129527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b750ab67f788b%3A0x9e7cd0266016609c!2sELabtob%20-%20Jual%20Laptop%20Murah%20Berkualitas!5e0!3m2!1sen!2sid!4v1690452414811!5m2!1sen!2sid" width="100%" height="250" style="border:0; border-radius: 5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.483672685622!2d104.7193384748341!3d-2.9632093970129527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b750ab67f788b%3A0x9e7cd0266016609c!2sELabtob%20-%20Jual%20Laptop%20Murah%20Berkualitas!5e0!3m2!1sen!2sid!4v1690452414811!5m2!1sen!2sid"
+                        width="100%" height="250" style="border:0; border-radius: 5px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
     </footer>
-    <!-- footer -->
 
-    
-    <script>
-      // Daftar teks yang akan diganti
-      const texts = [
-        "Selamat Datang!",
-        "Temukan Laptop Impianmu Disini!",
-        "Amanah dan Terpercaya!",
-      ];
+</body>
 
-      let currentTextIndex = 0;
-      let currentText = "";
-      let isDeleting = false;
-      let typingSpeed = 100; // Kecepatan pengetikan (dalam milidetik)
-
-      function type() {
-        const text = texts[currentTextIndex];
-        if (isDeleting) {
-          currentText = text.substring(0, currentText.length - 1);
-        } else {
-          currentText = text.substring(0, currentText.length + 1);
-        }
-
-        document.getElementById("dynamic-text").innerHTML = currentText;
-
-        if (!isDeleting && currentText === text) {
-          isDeleting = true;
-          typingSpeed = 900; // Tambah waktu jeda setelah teks ditampilkan seluruhnya
-        } else if (isDeleting && currentText === "") {
-          isDeleting = false;
-          currentTextIndex = (currentTextIndex + 1) % texts.length;
-          typingSpeed = 100; // Kembalikan ke kecepatan pengetikan normal
-        }
-
-        setTimeout(type, typingSpeed);
-      }
-
-      // Mulai animasi ketika halaman dimuat
-      window.onload = function () {
-        type();
-      };
-
-      // scroll reveal
-      ScrollReveal().reveal('.hero', { delay: 100 });
-      ScrollReveal().reveal('#about', { delay: 100 });
-      ScrollReveal().reveal('#laptop', { delay: 100 });
-      ScrollReveal().reveal('#layanan', { delay: 100 });
-    </script>
-  </body>
 </html>
